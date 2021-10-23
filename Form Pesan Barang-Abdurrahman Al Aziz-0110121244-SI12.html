@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div>
+        <nav style="border: solid 1px;">
+            <ul style="list-style-type: none; display: flex;">
+                <li style="margin-left: 200px; margin-left: 60px;">Home</li> 
+                <li style="margin-left: 200px; margin-left: 60px;">Generate Link</li>
+                <li style="margin-left: 200px; margin-left: 60px;">Transaction History</li>
+                <li style="margin-left: 200px; margin-left: 60px;">Policy</li>
+                <li style="margin-left: 200px; margin-left: 60px;"><input type="button" name="" id="" value="Log Out"></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="margin-left: 50px;">
+        <br>
+        <img src="Foto/Kotak.jpg" alt="Foto Kotak" width="250px">
+        <br>
+        <button style="margin-left: 15px;">Upload Image</button>
+    </div>
+    <hr style="border: solid 1px;">
+    <div style="display: flex; margin-left: 100px;">
+        <form action="Biodata.php" method="POST">            
+          <table>
+              <tr>
+                  <td>Title :</td>
+                  <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+              </tr>
+              <tr>
+                <td>Description:</td>
+                <td><textarea name="Description" id="" cols="20" rows="4" ></textarea></td>
+              </tr>
+              <tr>
+                  <td>Account Number :</td>
+                  <td><input type="number" name="" id=""></td>
+              </tr>
+              <tr>
+                  <td>Bank :<input type="text" list="Bank" name="Bank">
+                    <datalist id="Bank">
+                        <option value="Mandiri">
+                        <option value="BCA">
+                        <option value="BNI">
+                        <option value="BRI"></option>
+                    </datalist></td>
+              </tr>
+              <tr>
+                  <td>Account Holder :</td>
+                  <td><input type="text"</td>
+              </tr>
+              <tr>
+                  <td>Transaction :</td>
+                  <td><input type="number" name="" id=""></td>
+              </tr>
+              <tr>
+                  <td>if the Trasaction for the 3 person, choose 3 from the dropdown list
+                    <form action="/action_page.php">
+                        <dd style="color: green;">
+                        <input type="checkbox" id="send1" name="send1" value="send1">
+                        <label for="send1">Send to mobile phone</label><br>
+                        <input type="checkbox" id="send2" name="send2" value="send2">
+                        <label for="send2">Send to email</label><br></td>
+              </tr>
+              <tr>
+                  <td>Send to Mobile Phone :</td>
+                  <td><input type="text" name="" id=""></td>
+              </tr>
+              <tr>
+                  <td>Send to Email</td>
+                  <td><input type="text" name="" id=""></td>
+              </tr>
+              <br>
+              <tr>
+                  <td><input type="submit" name="" id="" value="Generate Link"></td>
+              </tr>
+        </form>  
+    </div>
+</body>
+</html>
